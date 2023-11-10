@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #BFC8E6;
+}
+
+.homePage{
+    margin: 100px;
+    background-color: white;
+    padding: 65px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mb-3{
+    position: relative;
+    display: inline-block;
+    margin-left: 0px;
+}
+.icon{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+.mb-3 input{
+    padding-left: 50px;
+    height: 50px;
+    width: 325px;
+}
+
+.btn-view{
+    height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.btn-light{
+    height: 50px;
+    width: 120px;
+}
+
+.btn-view button{
+    background-color: white;
+}
+
+.btn-view button:hover{
+    background-color: blue;
+}
+.homePage-body{
+    margin-top: 50px;
+}
+.user-card {
+    display: flex;
+    width: 300px;
+    height: 180px;
+    padding: 24px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    background: #FBFCFF;
+}
+.user-item{
+    display: flex;
+}
+.username{
+    margin-left: 10px;
+}
+
+.username-item-1{
+    border: 1px solid #c6c6f8;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0 10px;
+    color:blue;
+}
+.username-item-2{
+    border: 1px solid #c6c6f8;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 1px 10px;
+    color:blue;
+}
+.username-item-3{
+    border: 1px solid #c6c6f8;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 1px 10px;
+    color:blue;
+}
+.username-item-4{
+    border: 1px solid #c6c6f8;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 1px 10px;
+    color:blue;
+}
+.username-item-5{
+    border: 1px solid #c6c6f8;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 1px 10px;
+    color:blue;
+}
+
+.user-card{
+    width: 325px;
+}
+
+.homePage-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột đều nhau */
+    grid-template-rows: repeat(2, auto); /* 2 dòng đều nhau */
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+  }
+  
+  .user-card {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc; /* Đường viền giữa các user-card */
+    border-radius: 8px;
+  }
+  
+  .user-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  img {
+    margin-right: 10px;
+  }
